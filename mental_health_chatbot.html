@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Check-In Chatbot</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f9ff;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(to right,#d72df5, #94daff);
+            padding: 20px;
+            text-align: center;
+            border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 50px;
+            box-shadow: 0 4px 10px rgb(230, 173, 231);
+        }
+        header h1 {
+            font-size: 2.8em;
+            color: #fff;
+            margin: 0;
+        }
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .hero {
+            position: relative;
+            background-color: #ffffff; /* Plain background */
+            padding: 60px 20px;
+            color: black;
+            border-radius: 20px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .hero h2 {
+            font-size: 2.7em;
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 1.3em;
+            margin-bottom: 30px;
+            color: #333;
+        }
+        .hero a {
+            text-decoration: none;
+        }
+        .hero button {
+            padding: 15px 30px;
+            background-color: #ffcc00;
+            border: none;
+            border-radius: 30px;
+            font-size: 1.2em;
+            color: #333;
+            cursor: pointer;
+            transition: 0.3s ease;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        }
+        .hero button:hover {
+            background-color: #f39c12;
+            transform: scale(1.05);
+        }
+
+        /* Emotion Stickers */
+        .emotion-stickers {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .sticker {
+            font-size: 2.5em;
+            animation: bounce 2s infinite;
+        }
+
+        .sticker:hover {
+            transform: scale(1.1);
+        }
+
+        /* Bounce animation */
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 50px;
+        }
+        .feature {
+            width: 30%;
+            padding: 30px;
+            background-color: #fff;
+            border-radius: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            margin: 20px 0;
+            transition: 0.3s ease;
+        }
+        .feature:hover {
+            transform: translateY(-10px);
+        }
+        .feature h3 {
+            color: #8a2be2;
+            margin-bottom: 15px;
+            font-size: 1.6em;
+        }
+
+        /* Testimonials */
+        .testimonials {
+            margin-top: 60px;
+        }
+        .testimonials h2 {
+            font-size: 2.5em;
+            margin-bottom: 40px;
+            color: #8a2be2;
+        }
+
+        /* Gradient for Testimonial Boxes */
+        .testimonial {
+            background: linear-gradient(to right, #8a2be2, #ff69b4);
+            padding: 20px;
+            margin: 20px;
+            border-radius: 20px;
+            box-shadow: 0 6px 12px rgb(159, 220, 221);
+            color: #fff;
+            transition: 0.3s ease;
+        }
+        .testimonial:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            padding: 20px;
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+            margin-top: 50px;
+        }
+        footer p {
+            margin: 0;
+            font-size: 0.9em;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            .features {
+                flex-direction:column;
+                align-items: center;
+            }
+            .feature {
+                width: 80%;
+            }
+        }
+        
+    
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Mental Health Check-In Chatbot</h1>
+</header>
+
+<main>
+    <section class="hero">
+        <h2>Your Mental Health Matters</h2>
+        <p>Our chatbot helps you track your mental well-being and offers personalized support whenever you need it.</p>
+
+        <!-- Emotional Range Stickers -->
+        <div class="emotion-stickers">
+            <div class="sticker">😞</div> <!-- Sad -->
+            <div class="sticker">😕</div> <!-- Slightly sad -->
+            <div class="sticker">😐</div> <!-- Neutral -->
+            <div class="sticker">🙂</div> <!-- Happy -->
+            <div class="sticker">😄</div> <!-- Extremely Happy -->
+        </div>
+
+        <a href="#chatbot">
+            <button aria-label="Start chat with Mental Health Chatbot" onclick="scrollToChat()">Chat Now</button>
+        </a>
+    </section>
+
+    
+
+    <section class="features">
+        <div class="feature">
+            <h3>Validate Emotions</h3>
+            <p>Recognizing and honoring your emotions as an essential step towards mental well-being</p>
+        </div>
+        <div class="feature">
+            <h3>Emotion Detection</h3>
+            <p>Our chatbot understands your feelings and provides helpful responses tailored to your needs.</p>
+        </div>
+        <div class="feature">
+            <h3>Crisis Support</h3>
+            <p>If you're in distress, our chatbot connects you with professionals or helplines immediately.</p>
+        </div>
+        <div class="feature">
+            <h3>User Interactive Bot</h3>
+            <p>Engage in meaningful conversations that provide support and understanding tailored to your needs.</p>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2>What Our Users Say</h2>
+        <div class="testimonial">
+            <p>"This chatbot has helped me stay in touch with my emotions during stressful times. It's really comforting."</p>
+        </div>
+        <div class="testimonial">
+            <p>"A simple check-in every day has made a big difference for my mental health awareness."</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mental Health Check-In Chatbot. All rights reserved. | <a href="#">Privacy Policy</a></p>
+    </footer>
+   
+    <div id="chatbot">
+        <iframe
+            allow="microphone;"
+            width="350"
+            height="430"
+            src="https://console.dialogflow.com/api-client/demo/embedded/7d4e1663-1a49-41fe-8fa5-13d6752798f5"
+            title="Mental Health Check-In Chatbot"
+            aria-label="Embedded Mental Health Check-In Chatbot">
+        </iframe>
+    </div>
+
+
+</main>
+<script>
+    function scrollToChat() {
+        document.getElementById('chatbot').scrollIntoView({ behavior: 'smooth' });
+    }
+</script>
+
+</body>
+</html>
