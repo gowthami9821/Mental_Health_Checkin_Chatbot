@@ -6,10 +6,12 @@ The *Mental Health Check-In Chatbot* is designed to assist users in monitoring t
 
 ppt link: https://docs.google.com/presentation/d/1HfAA6xZwKLmzRFnawWyAaUUu5NUKGVQI/edit?usp=drivesdk&o
 
+FOR FULL VIDEO VISIT : https://youtu.be/w7EotVEoovk?feature=shared
+
+
 https://github.com/user-attachments/assets/498c7df7-65c1-4f3d-91fd-408f08a20a79
 
 uid=107561892217430839120&rtpof=true&sd=true
-
 
 ## Features
 
