@@ -1,4 +1,4 @@
-# Mental Health Check-In Chatbot
+![Screenshot (7)](https://github.com/user-attachments/assets/724fcc3b-2a10-4df1-a4d2-b862242525c2)# Mental Health Check-In Chatbot
 
 ## Overview
 
@@ -12,6 +12,16 @@ FOR FULL VIDEO VISIT : https://youtu.be/w7EotVEoovk?feature=shared
 https://github.com/user-attachments/assets/498c7df7-65c1-4f3d-91fd-408f08a20a79
 
 uid=107561892217430839120&rtpof=true&sd=true
+
+image_1: 
+![Screenshot (7)](https://github.com/user-attachments/assets/08b4205f-760c-4c3d-bbfa-1e44191447e4)
+
+image_2:
+![Screenshot (8)](https://github.com/user-attachments/assets/9c8aff6d-65fb-42c8-bab3-f2adbb27c0c1)
+
+image_3:
+![Screenshot (9)](https://github.com/user-attachments/assets/f46b57c3-af6c-4e52-a46b-82d61b980267)
+
 
 ## Features
 
