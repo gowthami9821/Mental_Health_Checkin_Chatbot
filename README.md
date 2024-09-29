@@ -4,6 +4,13 @@
 
 The *Mental Health Check-In Chatbot* is designed to assist users in monitoring their mental well-being. It offers personalized responses based on the user's emotional input, and provides access to crisis support when needed. The chatbot is powered by *Natural Language Processing (NLP)* techniques to help users express their emotions, receive relevant feedback, and track their emotional health over time.
 
+ppt link: https://docs.google.com/presentation/d/1HfAA6xZwKLmzRFnawWyAaUUu5NUKGVQI/edit?usp=drivesdk&o
+
+https://github.com/user-attachments/assets/498c7df7-65c1-4f3d-91fd-408f08a20a79
+
+uid=107561892217430839120&rtpof=true&sd=true
+
+
 ## Features
 
 - *Emotion Detection*: Analyze user input to detect emotions such as happiness, sadness, anxiety, and stress using NLP.
