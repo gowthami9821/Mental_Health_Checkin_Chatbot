@@ -1,4 +1,4 @@
-![Screenshot (7)](https://github.com/user-attachments/assets/724fcc3b-2a10-4df1-a4d2-b862242525c2)# Mental Health Check-In Chatbot
+
 
 ## Overview
 
@@ -14,13 +14,15 @@ https://github.com/user-attachments/assets/498c7df7-65c1-4f3d-91fd-408f08a20a79
 uid=107561892217430839120&rtpof=true&sd=true
 
 image_1: 
-![Screenshot (7)](https://github.com/user-attachments/assets/08b4205f-760c-4c3d-bbfa-1e44191447e4)
+![Screenshot (10)](https://github.com/user-attachments/assets/9c45498f-437c-44e8-bb7c-ba5f28805148)
+
 
 image_2:
-![Screenshot (8)](https://github.com/user-attachments/assets/9c8aff6d-65fb-42c8-bab3-f2adbb27c0c1)
+![Screenshot (11)](https://github.com/user-attachments/assets/6ab7af43-11cb-4059-b7cd-ac9f87ce015c)
+
 
 image_3:
-![Screenshot (9)](https://github.com/user-attachments/assets/f46b57c3-af6c-4e52-a46b-82d61b980267)
+![Screenshot (12)](https://github.com/user-attachments/assets/a85d5db1-45eb-4e17-b5b3-f5ce43010f71)
 
 
 ## Features
